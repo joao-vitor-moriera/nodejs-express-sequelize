@@ -1,9 +1,9 @@
 const Services = require('./Services.js');
 
-class CursoService extends Services {
+class CursoServices extends Services {
   constructor() {
     super('Curso');
   }
 }
 
-module.exports = CursoService;
+module.exports = CursoServices;
